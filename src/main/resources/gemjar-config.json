@@ -1,0 +1,29 @@
+{
+  "environment": "beta",
+  "projectName": "GEMECO-API-JV-BDD",
+  "token": "Bearer 5a04138da05dcd31f23abe52acff8c3780445d025fad35b4f1a7c7abbdea353c",
+  "username": "maulick_test",
+  "gemjarUserName": "maulick.b",
+  "gemjarToken": "713f8683-66e6-465d-9f1b-bc071158c5381669698039308",
+  "gemjarSubID": "test_id",
+  "glueCode": "com.qa.gemini.stepDefinition",
+  "feature": "src/main/resources/features/Test_API.feature",
+  "prod": {
+    "Get_Suite": "https://apis.gemecosystem.com/suiteexe?s_run_id=GEMPYP_TEST_PROD_63700467-4D93-46AB-A46E-727B2E85DC3F",
+    "Get_Suite2": "https://apis.gemecosystem.com/suiteexe?s_run_id=4d767509-f3b0-4fb6-a59d-85bfc384188baaa",
+    "Get_token": "https://apis.gemecosystem.com/bridge/token",
+    "Login": "https://apis.gemecosystem.com/login",
+    "post_token": "https://apis.gemecosystem.com/bridge/token/change",
+    "Post_Suite": "https://apis.gemecosystem.com/suiteexe",
+    "Get_Company": "https://apis.gemecosystem.com/company"
+  },
+  "beta": {
+    "Get_Suite": "https://apis-beta.gemecosystem.com/suiteexe?s_run_id=GEMPYP_TEST_PROD_63700467-4D93-46AB-A46E-727B2E85DC3F",
+    "Get_Suite2": "https://apis-beta.gemecosystem.com/suiteexe?s_run_id=4d767509-f3b0-4fb6-a59d-85bfc384188baaa",
+    "Get_token": "https://apis-beta.gemecosystem.com/bridge/token",
+    "Login": "https://apis-beta.gemecosystem.com/login",
+    "post_token": "https://apis-beta.gemecosystem.com/bridge/token/change",
+    "Post_Suite": "https://apis-beta.gemecosystem.com/suiteexe",
+    "Get_Company": "https://apis-beta.gemecosystem.com/company"
+  }
+}

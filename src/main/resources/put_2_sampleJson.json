@@ -1,0 +1,28 @@
+{
+  "s_run_id": "testsuiteidaaaaaaaaaaaaaaaaaaaaaaa",
+  "s_start_time": "#epoch#",
+  "s_end_time": "#epoch#",
+  "status": "FAIL",
+  "project_name": "test-project",
+  "run_type": "ON DEMAND",
+  "s_report_type": null,
+  "user": "maulick_test",
+  "env": "beta",
+  "machine": "csgeek",
+  "initiated_by": "maulick_test",
+  "run_mode": "LINUX_CLI",
+  "miscData": [],
+  "s_id": "test_id",
+  "testcase_analytics": {
+    "FAIL": 0,
+    "PASS": 1,
+    "INFO": 0,
+    "WARN": 0,
+    "ERR": 0,
+    "EXE": 0,
+    "TOTAL": 1
+  },
+  "framework_name": "GEMJAR",
+  "report_name": "GemjarTestReport",
+  "expected_testcases": "1"
+}
