@@ -40,6 +40,7 @@ public class Step_Definition {
         status = Common_Utils.CheckAPiWithAuth(url, method, Common_Utils.GetBridgeToken(), SampleName).getStatus(); //returns bridge token
     }
 
+
     @Given("^Update Suite using endpoint and method and SampleName \"(.*)\" and \"(.*)\" and \"(.*)\"$")
     public void UpdateSuite(String url, String method, String SampleName) throws Exception {
         status = Common_Utils.requestSuiteApi(url, method, Common_Utils.GetBridgeToken(), SampleName, "GEMPYP_TEST_PROD_63700467-4D93-46AB-A46E-727B2E85DC3F").getStatus();
