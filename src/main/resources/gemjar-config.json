@@ -8,6 +8,7 @@
   "gemjarSubID": "test_id",
   "glueCode": "com.qa.gemini.stepDefinition",
   "feature": "src/main/resources/features/Test_API.feature",
+  "reportLocation": "/tmp",
   "prod": {
     "Get_Suite": "https://apis.gemecosystem.com/suiteexe?s_run_id=GEMPYP_TEST_PROD_63700467-4D93-46AB-A46E-727B2E85DC3F",
     "Get_Suite2": "https://apis.gemecosystem.com/suiteexe?s_run_id=4d767509-f3b0-4fb6-a59d-85bfc384188baaa",
