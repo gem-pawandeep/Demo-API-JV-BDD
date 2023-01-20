@@ -1,28 +1,24 @@
 {
-  "s_run_id": "GEMECOSYSTEM_APIS_BETA_B681AD35-95C6-44B7-8375-823903CB9B8A",
+  "s_run_id": "GEMECO-API-JV_BETA_4AB964DA-FE49-4F39-9AF4-5E5D98",
   "s_start_time": "#epoch#",
   "s_end_time": "#epoch#",
   "status": "FAIL",
   "project_name": "test-project",
-  "run_type": "ON DEMAND",
-  "s_report_type": null,
+  "report_name": "REGRESSION",
   "user": "maulick_test",
   "env": "beta",
-  "machine": "csgeek",
-  "initiated_by": "maulick_test",
-  "run_mode": "LINUX_CLI",
-  "miscData": [],
-  "s_id": "test_id",
-  "testcase_analytics": {
-    "FAIL": 0,
-    "PASS": 1,
-    "INFO": 0,
-    "WARN": 0,
-    "ERR": 0,
-    "EXE": 0,
-    "TOTAL": 1
+  "machine": "DESKTOP-7R03UF5",
+  "os": "WINDOWS",
+  "meta_data": [
+  ],
+  "expected_testcases": 36,
+  "testcase_info": {
+    "TOTAL": 24,
+    "PASS": 8,
+    "FAIL": 12,
+    "EXE": 2,
+    "ERR": 2
   },
   "framework_name": "GEMJAR",
-  "report_name": "GemjarTestReport",
-  "expected_testcases": "1"
+  "s_id": "test_id"
 }
