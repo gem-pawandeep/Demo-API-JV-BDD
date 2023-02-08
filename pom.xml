@@ -17,7 +17,7 @@
         <dependency>
             <groupId>com.gemecosystem.gemjar</groupId>
             <artifactId>gemjar-core</artifactId>
-            <version>1.1.6</version>
+            <version>1.1.7</version>
         </dependency>
     </dependencies>
     <build>
