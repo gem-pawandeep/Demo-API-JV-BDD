@@ -18,6 +18,8 @@
             <groupId>com.gemecosystem.gemjar</groupId>
             <artifactId>gemjar-core</artifactId>
             <version>1.2.0</version>
+            <scope>system</scope>
+            <systemPath>${basedir}/gemjar-core-1.2.0-jar-with-dependencies.jar</systemPath>
         </dependency>
     </dependencies>
     <build>

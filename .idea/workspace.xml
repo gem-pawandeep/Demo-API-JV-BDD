@@ -5,13 +5,8 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="2de148bc-ed7f-4b24-8d37-2b73f84d7c13" name="Changes" comment="with Demo TestSuite">
-      <change beforePath="$PROJECT_DIR$/.idea/aws.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/aws.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/compiler.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/qa/gemini/stepDefinition/Step_Definition.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/qa/gemini/stepDefinition/Step_Definition.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/gemjar-config.json" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/gemjar-config.json" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -47,16 +42,16 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent"><![CDATA[{
-  "keyToString": {
-    "RunOnceActivity.OpenProjectViewOnStart": "true",
-    "RunOnceActivity.ShowReadmeOnStart": "true",
-    "last_opened_file_path": "C:/Users/vi.tiwari/Desktop/GEMJAR NEW/Demo-API-BDD",
-    "project.structure.last.edited": "Project",
-    "project.structure.proportion": "0.0",
-    "project.structure.side.proportion": "0.0"
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;last_opened_file_path&quot;: &quot;C:/Users/vi.tiwari/Desktop/GEMJAR NEW/Demo-API-BDD&quot;,
+    &quot;project.structure.last.edited&quot;: &quot;Project&quot;,
+    &quot;project.structure.proportion&quot;: &quot;0.0&quot;,
+    &quot;project.structure.side.proportion&quot;: &quot;0.0&quot;
   }
-}]]></component>
+}</component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
       <recent name="C:\Users\vi.tiwari\Desktop\GEMJAR NEW\Demo-API-BDD" />
@@ -175,17 +170,17 @@
       <breakpoints>
         <line-breakpoint enabled="true" type="java-line">
           <url>jar://$MAVEN_REPOSITORY$/com/gemecosystem/gemjar/gemjar-core/1.2.0/gemjar-core-1.2.0-sources.jar!/com/gemini/generic/reporting/GemEcoUpload.java</url>
-          <line>204</line>
+          <line>203</line>
           <option name="timeStamp" value="2" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
           <url>jar://$MAVEN_REPOSITORY$/com/gemecosystem/gemjar/gemjar-core/1.2.0/gemjar-core-1.2.0-sources.jar!/com/gemini/generic/reporting/GemEcoUpload.java</url>
-          <line>203</line>
+          <line>202</line>
           <option name="timeStamp" value="3" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
           <url>jar://$MAVEN_REPOSITORY$/com/gemecosystem/gemjar/gemjar-core/1.2.0/gemjar-core-1.2.0-sources.jar!/com/gemini/generic/reporting/GemEcoUpload.java</url>
-          <line>214</line>
+          <line>213</line>
           <option name="timeStamp" value="4" />
         </line-breakpoint>
       </breakpoints>
