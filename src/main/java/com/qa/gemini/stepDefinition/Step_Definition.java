@@ -1,25 +1,27 @@
 package com.qa.gemini.stepDefinition;
 
-import com.gemini.generic.reporting.GemTestReporter;
-import com.gemini.generic.reporting.STATUS;
 import com.qa.gemini.commonUtils.Common_Utils;
 import io.cucumber.java.en.Given;
 import io.cucumber.java.en.Then;
 
 public class Step_Definition {
     int status;
+
     @Given("^Set endpoint and method \"(.*)\" and \"(.*)\"$")
     public void hitApiWithStep(String url, String method) throws Exception {
         status = Common_Utils.HitAPI(url, method, "Test for " + method.toUpperCase()).getStatus();
     }
+
     @Then("Verify Status code {int}")
     public void check_status_code(int Expected) {
         Common_Utils.VerifyStatusCode(Expected, status);
     }
+
     @Given("^Authenticate endpoint and method \"(.*)\" and \"(.*)\"$")
     public void hitApiWithoutStep(String url, String method) throws Exception {
         status = Common_Utils.HitAPI(url, method).getStatus();
     }
+
     @Given("^Set endpoint and method and SampleName \"(.*)\" and \"(.*)\" and \"(.*)\"$")
     public void Login(String url, String method, String SampleName) throws Exception {
         status = Common_Utils.LoginUser(url, method, SampleName, "Login user").getStatus();
@@ -39,7 +41,6 @@ public class Step_Definition {
     public void Suite_Api(String url, String method, String SampleName) throws Exception {
         status = Common_Utils.CheckAPiWithAuth(url, method, Common_Utils.GetBridgeToken(), SampleName).getStatus(); //returns bridge token
     }
-
 
     @Given("^Update Suite using endpoint and method and SampleName \"(.*)\" and \"(.*)\" and \"(.*)\"$")
     public void UpdateSuite(String url, String method, String SampleName) throws Exception {

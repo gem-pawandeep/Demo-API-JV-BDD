@@ -1,14 +1,9 @@
 {
   "environment": "beta",
-  "projectName": "GEMECO-API-JV-BDD",
-  "token": "Bearer 5a04138da05dcd31f23abe52acff8c3780445d025fad35b4f1a7c7abbdea353c",
-  "username": "maulick_test",
-  "gemjarUserName": "maulick.b",
-  "gemjarToken": "713f8683-66e6-465d-9f1b-bc071158c5381669698039308",
-  "gemjarSubID": "test_id",
-  "glueCode": "com.qa.gemini.stepDefinition",
-  "feature": "src/main/resources/features/Test_API.feature",
-  "reportLocation": "/tmp",
+  "project_name": "DEMO-API-JV-BDD",
+  "feature": "src/main/resources/features",
+  "glueCode":"com.qa.gemini.stepDefinition",
+  "tags": "",
   "prod": {
     "Get_Suite": "https://apis.gemecosystem.com/suiteexe?s_run_id=GEMPYP_TEST_PROD_63700467-4D93-46AB-A46E-727B2E85DC3F",
     "Get_Suite2": "https://apis.gemecosystem.com/suiteexe?s_run_id=4d767509-f3b0-4fb6-a59d-85bfc384188baaa",

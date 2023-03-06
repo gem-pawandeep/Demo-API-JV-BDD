@@ -12,6 +12,7 @@ import java.util.HashMap;
 import java.util.Map;
 
 public class Common_Utils {
+
     public static Response HitAPI(String UrlNameFromConfig, String method, String step) {
         Response response = new Response();
         try {
@@ -24,7 +25,7 @@ public class Common_Utils {
                 request.setStep(step);
             }
             response = ApiInvocation.handleRequest(request);
-//            GemTestReporter.addTestStep(method.toUpperCase() + " Request Verification ", method.toUpperCase() + " Request Executed Successfully", STATUS.PASS);
+//          GemTestReporter.addTestStep(method.toUpperCase() + " Request Verification ", method.toUpperCase() + " Request Executed Successfully", STATUS.PASS);
             GemTestReporter.addTestStep("Response Message", response.getResponseMessage(), STATUS.INFO);
             if ((response.getResponseBody()) != null) {
                 GemTestReporter.addTestStep("Response Body", response.getResponseBody(), STATUS.INFO);
@@ -161,10 +162,6 @@ public class Common_Utils {
 
     public static String GetBridgeToken(){
         return GlobalVariables.Bridge_Token;
-    }
-
-    public static String GetBearerToken(){
-        return GlobalVariables.Bearer_Token;
     }
 
     public static Response requestSuiteApi(String UrlNameFromConfig, String method, String bt, String sampleName, String srunid) throws Exception {
