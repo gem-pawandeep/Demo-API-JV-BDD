@@ -7,6 +7,7 @@
         <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
         <outputRelativeToContentRoot value="true" />
         <module name="Demo-API-JV-BDD" />
+        <module name="Demo-API-BDD" />
       </profile>
     </annotationProcessing>
   </component>

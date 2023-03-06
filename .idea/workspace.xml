@@ -4,7 +4,12 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="2de148bc-ed7f-4b24-8d37-2b73f84d7c13" name="Changes" comment="with Demo TestSuite" />
+    <list default="true" id="2de148bc-ed7f-4b24-8d37-2b73f84d7c13" name="Changes" comment="with Demo TestSuite">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/gemjar-core-1.2.0-jar-with-dependencies.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/gemjar-config.json" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/gemjar-config.json" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -34,25 +39,42 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent">{
-  &quot;keyToString&quot;: {
-    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
-    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
-    &quot;last_opened_file_path&quot;: &quot;C:/Project-Data/GemJar/GemJar-Projects/GemJar-Regressions/Demo-API-JV-BDD/src/main/resources&quot;
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "RunOnceActivity.OpenProjectViewOnStart": "true",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "last_opened_file_path": "C:/Users/vi.tiwari/Desktop/GEMJAR NEW/JEWELUI",
+    "project.structure.last.edited": "Project",
+    "project.structure.proportion": "0.15",
+    "project.structure.side.proportion": "0.2"
   }
-}</component>
+}]]></component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\Users\vi.tiwari\Desktop\GEMJAR NEW\Demo-API-BDD" />
       <recent name="C:\Project-Data\GemJar\GemJar-Projects\GemJar-Regressions\Demo-API-JV-BDD\src\main\resources" />
     </key>
   </component>
-  <component name="RunManager" selected="TestNG.C:/Project-Data/GemJar/GemJar-Projects/GemJar-Regressions/Demo-API-JV-BDD/src/main/resources/testng.xml">
-    <configuration name="Feature: Test_API" type="CucumberJavaRunConfigurationType" factoryName="Cucumber java" temporary="true" nameIsGenerated="true">
+  <component name="RunManager" selected="TestNG.C:/Users/vi.tiwari/Desktop/GEMJAR NEW/Demo-API-BDD/src/main/resources/testng.xml">
+    <configuration name="GemJarMainClass" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.gemini.generic.utils.GemJarMainClass" />
+      <module name="Demo-API-BDD" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.gemini.generic.utils.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Feature: Test_API (1)" type="CucumberJavaRunConfigurationType" factoryName="Cucumber java" temporary="true" nameIsGenerated="true">
       <option name="CUCUMBER_CORE_VERSION" value="5" />
       <option name="FILE_PATH" value="$PROJECT_DIR$/src/main/resources/features/Test_API.feature" />
       <option name="GLUE" value="com.gemini.generic.bdd com.gemini.generic.feature.utils com.qa.gemini.stepDefinition" />
       <option name="MAIN_CLASS_NAME" value="io.cucumber.core.cli.Main" />
-      <module name="Demo-API-JV-BDD" />
+      <module name="Demo-API-BDD" />
       <option name="PROGRAM_PARAMETERS" value=" --plugin org.jetbrains.plugins.cucumber.java.run.CucumberJvm5SMFormatter" />
       <option name="SUGGESTED_NAME" value="Feature: Test_API" />
       <option name="WORKING_DIRECTORY" value="$MODULE_WORKING_DIR$" />
@@ -80,11 +102,23 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="C:/Users/vi.tiwari/Desktop/GEMJAR NEW/Demo-API-BDD/src/main/resources/testng.xml" type="TestNG" temporary="true" nameIsGenerated="true">
+      <module name="Demo-API-BDD" />
+      <option name="SUITE_NAME" value="$PROJECT_DIR$/src/main/resources/testng.xml" />
+      <option name="TEST_OBJECT" value="SUITE" />
+      <properties />
+      <listeners />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="TestNG.C:/Users/vi.tiwari/Desktop/GEMJAR NEW/Demo-API-BDD/src/main/resources/testng.xml" />
+        <item itemvalue="Application.GemJarMainClass" />
+        <item itemvalue="Cucumber Java.Feature: Test_API (1)" />
         <item itemvalue="TestNG.C:/Project-Data/GemJar/GemJar-Projects/GemJar-Regressions/Demo-API-JV-BDD/src/main/resources/testng.xml" />
         <item itemvalue="JAR Application.Demo-API-JV-BDD-1.0-SNAPSHOT-jar-with-dependencies.jar" />
-        <item itemvalue="Cucumber Java.Feature: Test_API" />
       </list>
     </recent_temporary>
   </component>
@@ -121,5 +155,31 @@
   <component name="VcsManagerConfiguration">
     <MESSAGE value="with Demo TestSuite" />
     <option name="LAST_COMMIT_MESSAGE" value="with Demo TestSuite" />
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>jar://$MAVEN_REPOSITORY$/com/gemecosystem/gemjar/gemjar-core/1.2.0/gemjar-core-1.2.0-sources.jar!/com/gemini/generic/reporting/GemEcoUpload.java</url>
+          <line>207</line>
+          <option name="timeStamp" value="2" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>jar://$MAVEN_REPOSITORY$/com/gemecosystem/gemjar/gemjar-core/1.2.0/gemjar-core-1.2.0-sources.jar!/com/gemini/generic/reporting/GemEcoUpload.java</url>
+          <line>206</line>
+          <option name="timeStamp" value="3" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>jar://$MAVEN_REPOSITORY$/com/gemecosystem/gemjar/gemjar-core/1.2.0/gemjar-core-1.2.0-sources.jar!/com/gemini/generic/reporting/GemEcoUpload.java</url>
+          <line>217</line>
+          <option name="timeStamp" value="4" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>jar://$MAVEN_REPOSITORY$/com/gemecosystem/gemjar/gemjar-core/1.2.0/gemjar-core-1.2.0-sources.jar!/com/gemini/generic/utils/GemJarUtils.java</url>
+          <line>22</line>
+          <option name="timeStamp" value="5" />
+        </line-breakpoint>
+      </breakpoints>
+    </breakpoint-manager>
   </component>
 </project>
